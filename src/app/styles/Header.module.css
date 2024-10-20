@@ -1,0 +1,23 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .navList a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navList a:hover {
+    text-decoration: underline;
+  }
+  
