@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+ :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,4 +24,40 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.home {
+  font-size: 30px;
+  font-weight: bold;
+  background-color:palevioletred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.contact {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(174, 228, 89);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.about {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
 }
